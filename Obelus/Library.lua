@@ -3687,16 +3687,16 @@
             end
         end
     end 
-
+    
     function notifications:create_notification(options)
         local cfg = {
             name = options.name or "Hit: q3sm (finobe) in the Head for 100 Damage!",
             outline; 
         }
-
+        
         -- Instances
             local outline = library:create("Frame", {
-                Parent = library.gui;
+                Parent = gethui();
                 Size = dim2(0, 0, 0, 0);
                 BorderColor3 = rgb(0, 0, 0);
                 BorderSizePixel = 0;
