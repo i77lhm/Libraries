@@ -1,4 +1,4 @@
-local library, notifications = loadstring(game:HttpGet("https://raw.githubusercontent.com/i77lhm/Libraries/refs/heads/main/Monolith/Library.lua?token=GHSAT0AAAAAADCJOPOGVL3HPSLBJGSJXY2Q2ERFAAQ"))()
+local library, notifications = loadstring(game:HttpGet("https://raw.githubusercontent.com/i77lhm/Libraries/refs/heads/main/Monolith/Library.lua"))()
 
 local window = library:window({name = "nebula"})
 
