@@ -3792,4 +3792,4 @@
     end
 -- 
 
-return library, notifications 
+return library, notifications, themes
