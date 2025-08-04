@@ -3741,7 +3741,7 @@
                 TextXAlignment = Enum.TextXAlignment.Left;
                 BorderSizePixel = 0;
                 ZIndex = 2;
-                TextSize = 9;
+                TextSize = 12;
                 BackgroundColor3 = rgb(255, 255, 255)
             });
             
