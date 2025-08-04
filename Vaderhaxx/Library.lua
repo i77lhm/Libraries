@@ -1,3 +1,6 @@
+-- REASON: Discontinued nobody wanted to buy it either... I can see why vaderhaxx was super ugly lol 
+-- Code from around october of 2024
+
 -- Variables 
     local uis = game:GetService("UserInputService") 
     local players = game:GetService("Players") 
