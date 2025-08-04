@@ -1,4 +1,4 @@
-# For custom commissions: gg/userinterface or https://discord.gg/kf7ADxGWHx
+# For custom commissions: https://discord.gg/userinterface or https://discord.gg/kf7ADxGWHx
 
 https://github.com/i77lhm/Libraries/blob/main/Atlanta/Example.lua
 ![Nebula](https://github.com/i77lhm/Libraries/blob/main/Images/atlanta.png?raw=true "Nebula")
