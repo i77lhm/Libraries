@@ -1,4 +1,5 @@
-
+-- Hi finobe here, this got leaked cuz i had a polish nazi (??) customer who tried leaking personal info about me for whatever reason??
+-- Anyways I fixed the code up so if you're using the other one on my github then use this one instead
 
 -- Variables 
     local uis = game:GetService("UserInputService") 
