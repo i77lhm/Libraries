@@ -2538,7 +2538,7 @@
                     name = options.name or "TextBox",
                     placeholder = options.placeholder or options.placeholdertext or options.holder or options.holdertext or "type here...",
                     default = options.value or options.default,
-                    flag = options.flag or "SET ME NIGGA",
+                    flag = options.flag or "flag",
                     callback = options.callback or function() end,
                     visible = options.visible or true,
                 }
