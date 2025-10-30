@@ -3155,7 +3155,7 @@
                         FontFace = library.font,
                         TextColor3 = rgb(180, 180, 180),
                         BorderColor3 = rgb(0, 0, 0),
-                        Text = "[ NIGGER ]",
+                        Text = "[ ... ]",
                         Size = dim2(1, 0, 1, 0),
                         Position = dim2(0, 0, 0, -1),
                         BackgroundTransparency = 1,
@@ -3304,7 +3304,7 @@
             
                     option_instances = {}, 
                     current_instance = nil, 
-                    flag = options.flag or "SET A FLAG U NIGGER", 
+                    flag = options.flag or "flag", 
             
                 }
             
