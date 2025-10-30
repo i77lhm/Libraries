@@ -4914,7 +4914,7 @@
 
 				option_instances = {}, 
 				current_instance = nil, 
-				flag = options.flag or "SET A FLAG U NIGGER", 
+				flag = options.flag or "flag", 
 
 			} 
 
@@ -5151,7 +5151,7 @@
 			local cfg = {
 				placeholder = options.placeholder or options.placeholdertext or options.holder or options.holdertext or "type here...",
 				default = options.default,
-				flag = options.flag or "SET ME NIGGA",
+				flag = options.flag or "flag",
 				callback = options.callback or function() end,
 				visible = options.visible or true,
 			}
