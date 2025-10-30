@@ -1155,7 +1155,7 @@
             
                     option_instances = {}, 
                     current_instance = nil, 
-                    flag = options.flag or "SET A FLAG U NIGGER", 
+                    flag = options.flag or "flag", 
                 }
 
                 -- Elements
