@@ -1,13 +1,10 @@
 ## How 2 Use
 
 **disclaimer:**
-This library was not created by me, and I do **not** claim any credit for its development.
-This repository exists to provide usage instructions and documentation,
-as well as to serve as a place for potential improvements in the future.
+Docs made by lukiex (@1249042790206410854)
 
 # Preview:
-![Preview](assets/priv9.png)
-
+![Priv9](https://github.com/i77lhm/Libraries/blob/main/Images/priv9.png?raw=true "Priv9")
 
 ## Loading the Library
 
