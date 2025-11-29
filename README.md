@@ -14,7 +14,7 @@ https://github.com/i77lhm/Libraries/blob/main/Monolith/Example.lua
 https://raw.githubusercontent.com/i77lhm/Libraries/refs/heads/main/Utopia/Example.lua
 ![Utopia](https://github.com/i77lhm/Libraries/blob/main/Images/utopia.png?raw=true "Utopia")
 https://raw.githubusercontent.com/i77lhm/Libraries/refs/heads/main/Priv9/Example.lua
-![Utopia](https://github.com/i77lhm/Libraries/blob/main/Images/priv9.png?raw=true "Priv9")
+![Priv9](https://github.com/i77lhm/Libraries/blob/main/Images/priv9.png?raw=true "Priv9")
 https://raw.githubusercontent.com/i77lhm/Libraries/refs/heads/main/Octohook/Example.lua
-![Utopia](https://github.com/i77lhm/Libraries/blob/main/Images/octohook.png?raw=true "Octohook")
+![Octohook](https://github.com/i77lhm/Libraries/blob/main/Images/octohook.png?raw=true "Octohook")
 
