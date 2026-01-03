@@ -63,7 +63,7 @@
 
 -- Library init
     getgenv().library = {
-        directory = "priv9",
+        directory = "fagghaxz",
         folders = {
             "/fonts",
             "/configs",
@@ -526,7 +526,7 @@
     -- Library element functions
         function library:window(properties)
             local cfg = {
-                name = properties.name or properties.Name or "priv9",
+                name = properties.name or properties.Name or "fagghaxz",
                 size = properties.size or properties.Size or dim2(0, 600, 0, 400), 
                 selected_tab 
             }
@@ -882,7 +882,7 @@
             return setmetatable(cfg, library)
         end 
 
-        local watermark = library:watermark({name = "priv9 - 100 fps - 100 ping"})
+        local watermark = library:watermark({name = "fagghaxz - 100 fps - 100 ping"})
         local fps = 0
         local watermark_delay = tick() 
 
@@ -892,7 +892,7 @@
             if tick() - watermark_delay > 1 then 
                 watermark_delay = tick()
                 local ping = math.floor(stats.PerformanceStats.Ping:GetValue()) .. "ms"                
-                watermark.update_text(string.format("priv9 - fps: %s - ping: %s", fps, ping))
+                watermark.update_text(string.format("fagghaxz - fps: %s - ping: %s", fps, ping))
                 fps = 0
             end
         end)
