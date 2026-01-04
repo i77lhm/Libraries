@@ -182,7 +182,7 @@ local esp = { players = {}, screengui = Instance.new("ScreenGui", gethui()), cac
                     AnchorPoint = vec2(0, 1);
                     Size = dim2(1, 0, 0, 0);
                     BackgroundTransparency = 1;
-                    Position = dim2(0, 0, 0, -3);
+                    Position = dim2(0, 0, 0, -5);
                     BorderSizePixel = 0;
                     AutomaticSize = Enum.AutomaticSize.Y;
                     TextSize = 9;
@@ -401,7 +401,7 @@ local esp = { players = {}, screengui = Instance.new("ScreenGui", gethui()), cac
                         AnchorPoint = vec2(1, 0);
                         Parent = flags["Healthbar"] and objects[ "holder" ] or esp.cache;
                         Name = "\0";
-                        Position = dim2(0, -2, 0, -1);
+                        Position = dim2(0, -5, 0, -1);
                         BorderColor3 = rgb(0, 0, 0);
                         Size = dim2(0, 4, 1, 2);
                         BorderSizePixel = 0;
@@ -430,7 +430,7 @@ local esp = { players = {}, screengui = Instance.new("ScreenGui", gethui()), cac
                         Name = "\0";
                         Size = dim2(1, 0, 0, 0);
                         BackgroundTransparency = 1;
-                        Position = dim2(0, 0, 1, 3);
+                        Position = dim2(0, 0, 1, 5);
                         BorderSizePixel = 0;
                         AutomaticSize = Enum.AutomaticSize.Y;
                         TextSize = 9;
@@ -735,7 +735,7 @@ flags = { -- basically a substitute for ur ui flags (flags["wahdiuawdhwa"])
     ["Names"] = true; 
     ["Name_Color"] = { Color = rgb(255, 255, 255) };
     ["Boxes"] = true;
-    ["Box_Type"] = "Corner";
+    ["Box_Type"] = "Normal";
     ["Box_Color"] = { Color = rgb(255, 255, 255) };
     ["Healthbar"] = true; 
     ["Health_High"] = { Color = rgb(0, 255, 0) };
@@ -749,12 +749,3 @@ flags = { -- basically a substitute for ur ui flags (flags["wahdiuawdhwa"])
 }; 
 task.wait()
 esp.refresh_elements()
-
---[[
-    If you want to enable or change something you do this:
-    (prefferably in a callback) 
-]]
-
-flags.Boxes = false 
-esp.refresh_elements()
-
