@@ -606,7 +606,6 @@ getgenv().Loaded = true
                         BorderColor3 = rgb(0, 0, 0);
                         Text = "255, 255, 255, 0.5";
                         Name = "\0";
-                        ClearTextOnFocus = false;
                         Size = dim2(1, 0, 1, 0);
                         Selectable = false;
                         BorderSizePixel = 0;
